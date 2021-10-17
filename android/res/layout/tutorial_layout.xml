@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_tutorial"
+    android:background="@drawable/starscape00">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/upper_hud"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorial_text_score"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:fontFamily="@font/chopstic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:text="00000"
+                android:fontFamily="@font/chopstic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorial_text_shield"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:fontFamily="@font/chopstic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:text="03"
+                android:fontFamily="@font/chopstic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorial_text_lives"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:fontFamily="@font/chopstic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:text="05"
+                android:fontFamily="@font/chopstic"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/enemygreen1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/enrmy_ship"
+        android:layout_below="@+id/upper_hud"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/enrmy_ship"
+        android:layout_below="@+id/enrmy_ship"
+        android:layout_marginTop="35dp"
+        android:id="@+id/boost1"
+        android:src="@drawable/powerupblue_shield"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/boost1"
+        android:layout_below="@+id/enrmy_ship"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/boost2"
+        android:src="@drawable/powerupblue_bolt"/>
+
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/boost2"
+        android:layout_below="@+id/enrmy_ship"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/boost3"
+        android:src="@drawable/powerupblue"/>
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/meteorbrown_big4"
+        android:id="@+id/astroid"
+        android:layout_below="@+id/boost3"
+        android:layout_toRightOf="@id/boost3"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/playership1_blue"
+        android:layout_below="@+id/astroid"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"/>
+
+
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/finger1"
+        android:layout_below="@+id/upper_hud"
+        android:background="@drawable/finger"/>
+
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/finger2"
+        android:visibility="visible"
+        android:layout_toRightOf="@+id/finger1"
+        android:layout_below="@+id/finger1"
+        android:background="@drawable/finger"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/finger4"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/astroid"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/finger"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/finger3"
+        android:visibility="visible"
+        android:layout_alignTop="@id/boost1"
+        android:layout_centerInParent="true"
+        android:background="@drawable/finger"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom= "true"
+        android:paddingBottom="10dp"
+        android:id="@+id/explain_textview"
+        android:text="@string/tutorial_text_explenation0"/>
+
+
+</RelativeLayout>

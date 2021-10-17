@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpaceInvaders</string>
+    <string name="main_btn_play">Play</string>
+    <string name="main_btn_leaderbord">Leaderboard</string>
+    <string name="main_btn_Quit">Quit</string>
+    <string name="tutorial_text_score">Score</string>
+    <string name="tutorial_text_lives">lives</string>
+    <string name="tutorial_text_shield">Shield</string>
+    <string name="tutorial_text_explenation1">Enemy ships will apear from above, dodge their lasers!</string>
+    <string name="tutorial_text_explenation2">booster will give you extra shooting speed, shield or lives</string>
+    <string name="tutorial_text_explenation3">Fast astroids will apear, dodge them!</string>
+    <string name="tutorial_text_explenation0">your score,shield and health</string>
+    <string name="winpopup_text_title">You Won!</string>
+    <string name="gameovew_text_hint">Fill Name</string>
+    <string name="gameover_btn_again">Try Again</string>
+    <string name="gameover_btn_quit">Quit</string>
+    <string name="winpopup_btn_Next">To level selection</string>
+    <string name="gameover_btn_submit">Save To Leaderboard</string>
+    <string name="pause_text_title">Pause</string>
+    <string name="pause_btn_continue">Continue</string>
+    <string name="gameover_text_title">Game Over</string>
+    <string name="game_text_score">Score</string>
+    <string name="game_text_shield">Shield</string>
+    <string name="game_text_lives">Lives</string>
+    <string name="Leaderboard_text_title">Leaderboard</string>
+    <string name="popup_text_saved_checked">saved!</string>
+
+</resources>

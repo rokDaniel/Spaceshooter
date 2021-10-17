@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">פולשים בחלל</string>
+    <string name="main_btn_play">שחק</string>
+    <string name="main_btn_leaderbord">לוח תוצאות</string>
+    <string name="main_btn_Quit">צא</string>
+    <string name="tutorial_text_score">ניקוד</string>
+    <string name="tutorial_text_lives">חיים</string>
+    <string name="tutorial_text_shield">מגן</string>
+    <string name="tutorial_text_explenation1">חלליות יופיעו מלמעלה, התחמק מהליזר שלהן</string>
+    <string name="tutorial_text_explenation2">בוסטרים יוסיפו לך מהירות יריה, מגן או חיים</string>
+    <string name="tutorial_text_explenation3">אסטרואידים מהירים יופיעו, התחמק מהם!</string>
+    <string name="tutorial_text_explenation0">הניקוד,המגן והחיים</string>
+    <string name="winpopup_text_title">ניצחת!</string>
+    <string name="gameovew_text_hint">הכנס שם</string>
+    <string name="gameover_btn_again">נסה שוב</string>
+    <string name="gameover_btn_quit">צא</string>
+    <string name="winpopup_btn_Next">לבחירת שלב</string>
+    <string name="gameover_btn_submit">שמור ללוח תוצאות</string>
+    <string name="pause_text_title">הפסקה</string>
+    <string name="pause_btn_continue">המשך</string>
+    <string name="gameover_text_title">סוף משחק</string>
+    <string name="game_text_score">דוקינ</string>
+    <string name="game_text_shield">ןגמ</string>
+    <string name="game_text_lives">םייח</string>
+    <string name="Leaderboard_text_title">לוח תוצאות</string>
+    <string name="popup_text_saved_checked">נשמר!</string>
+</resources>

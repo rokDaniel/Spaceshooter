@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_background_color">#FFFFFFFF</color>
+    <color name="main_color">#6b497b</color>
+    <color name="btn_pressed">#4c3c54</color>
+    <color name="alpha_60">#9AFFFFFF</color>
+    <color name="alpha_90">#2CFFFFFF</color>
+    <color name="black_trans">#3B000000</color>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <com.mygdx.game.MainMenuButton
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/main_btn_play"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_selector"
+        android:id="@+id/play_btn"/>
+
+    <com.mygdx.game.MainMenuButton
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/main_btn_leaderbord"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_selector"
+        android:id="@+id/scoreboard_btn"/>
+
+    <com.mygdx.game.MainMenuButton
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/main_btn_Quit"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_selector"
+        android:id="@+id/quit_btn"/>
+
+
+</LinearLayout>
